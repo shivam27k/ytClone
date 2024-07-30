@@ -19,7 +19,7 @@ const videoSchema = new Schema({
         required: true,
     },
     duration: {
-        type: Number, // cloudinary duration
+        type: Number, // cloudinary url
         required: true,
     },
     views: {
